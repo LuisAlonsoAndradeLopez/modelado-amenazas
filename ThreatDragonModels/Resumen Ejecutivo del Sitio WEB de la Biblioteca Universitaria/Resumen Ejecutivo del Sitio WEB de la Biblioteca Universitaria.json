@@ -902,7 +902,7 @@
         "cells": [
           {
             "position": {
-              "x": 10,
+              "x": -140,
               "y": 145.00000000000023
             },
             "size": {
@@ -1054,8 +1054,8 @@
             },
             "vertices": [
               {
-                "x": 250,
-                "y": 110
+                "x": 190,
+                "y": 90
               }
             ],
             "labels": [
@@ -1117,8 +1117,8 @@
             },
             "vertices": [
               {
-                "x": 250,
-                "y": 230
+                "x": 200,
+                "y": 250
               }
             ],
             "labels": [
@@ -1403,6 +1403,70 @@
             ]
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Límite entre el usuario y el servidor web",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "39933feb-eea9-4813-af84-0267a1badca8",
+            "source": {
+              "x": 10,
+              "y": 300
+            },
+            "target": {
+              "x": 0,
+              "y": 80
+            },
+            "vertices": [
+              {
+                "x": 120,
+                "y": 170
+              }
+            ],
+            "labels": [
+              "Límite entre el usuario y el servidor web"
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Límite entre la base de datos y el servidor web",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "82230a9e-8152-4fb5-b8e0-32002664ad52",
+            "source": {
+              "x": 680,
+              "y": 500
+            },
+            "target": {
+              "x": 980,
+              "y": 500
+            },
+            "vertices": [
+              {
+                "x": 820,
+                "y": 450
+              }
+            ],
+            "labels": [
+              "Límite entre la base de datos y el servidor web"
+            ]
+          },
+          {
             "position": {
               "x": 734,
               "y": 110.00000000000023
@@ -1456,7 +1520,7 @@
           {
             "position": {
               "x": 764,
-              "y": 465
+              "y": 515
             },
             "size": {
               "width": 120,
