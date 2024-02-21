@@ -67,7 +67,7 @@
           },
           {
             "position": {
-              "x": 40,
+              "x": 30,
               "y": 260
             },
             "size": {
@@ -518,12 +518,100 @@
             },
             "vertices": [
               {
-                "x": 740,
-                "y": 190
+                "x": 870,
+                "y": 170
               }
             ],
             "labels": [
               "Queries"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": "4 3"
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Lee web app config",
+              "description": "Archivo físico de configuración\nleído desde el disco.",
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "1796b886-8812-4e30-aa4d-535d08e1514f",
+            "source": {
+              "cell": "971673b1-2d22-4e78-9125-b9c8fc68acab"
+            },
+            "target": {
+              "cell": "90eaba79-44ab-4c32-8812-bfea54f69925"
+            },
+            "vertices": [
+              {
+                "x": 720,
+                "y": 340
+              }
+            ],
+            "labels": [
+              "Lee web app config"
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Límite entre los usuarios y el servidor web",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "ac255461-01ac-458d-85ad-cdc7e857dcdc",
+            "source": {
+              "x": 70,
+              "y": 370
+            },
+            "target": {
+              "x": 70,
+              "y": 30
+            },
+            "vertices": [
+              {
+                "x": 200,
+                "y": 350
+              },
+              {
+                "x": 220,
+                "y": 210
+              },
+              {
+                "x": 200,
+                "y": 70
+              }
+            ],
+            "labels": [
+              "Límite entre los usuarios y el servidor web"
             ]
           },
           {
@@ -573,16 +661,15 @@
             },
             "id": "05d836bf-adb2-45a4-81e4-fa52a1799234",
             "source": {
-              "x": 860,
-              "y": 240
+              "cell": "03de5b5a-253a-43b5-9914-b9410af6912f"
             },
             "target": {
               "cell": "90eaba79-44ab-4c32-8812-bfea54f69925"
             },
             "vertices": [
               {
-                "x": 730,
-                "y": 260
+                "x": 870,
+                "y": 270
               }
             ],
             "labels": [
@@ -590,51 +677,35 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": "4 3"
-              }
-            },
+            "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
             "zIndex": 10,
             "connector": "smooth",
             "data": {
-              "type": "tm.Flow",
-              "name": "Lee web app config",
-              "description": "Archivo físico de configuración\nleído desde el disco.",
-              "outOfScope": true,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
+              "type": "tm.Boundary",
+              "name": "Límite entre la base de datos y el servidor web",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
             },
-            "id": "1796b886-8812-4e30-aa4d-535d08e1514f",
+            "id": "9dd03522-8c5c-4db1-b6cb-a11b3f0c7b8f",
             "source": {
-              "cell": "971673b1-2d22-4e78-9125-b9c8fc68acab"
+              "x": 1150,
+              "y": 120
             },
             "target": {
-              "cell": "90eaba79-44ab-4c32-8812-bfea54f69925"
+              "x": 1150,
+              "y": 320
             },
             "vertices": [
               {
-                "x": 720,
-                "y": 340
+                "x": 980,
+                "y": 220
               }
             ],
             "labels": [
-              "Lee web app config"
+              "Límite entre la base de datos y el servidor web"
             ]
           },
           {
@@ -694,7 +765,7 @@
           },
           {
             "position": {
-              "x": 870,
+              "x": 1180,
               "y": 190
             },
             "size": {
